@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+:root {
+    --main-color: rgb(187, 25, 25);
+    --secondry-color: #6d6c6a;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.navbar h2 {
+    color: var(--main-color);
+}
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover {
+    color: var(--main-color);
+    transition: color 0.5s;
+}
+.home {
+    background-image: url(../images/slider/slider-01.jpg);
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+.home-layer {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.712);
+}
+.home-content h1 {
+    color: var(--main-color)!important;
+    font-size: 4rem;
+}
+.header-title h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+/* ----------------------------About---------------------------- */
+.alex-image-border {
+    border-color: var(--main-color)!important;
+}
+.img-about-layer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.671)!important;
+    height: 100%;
+    transition: top 0.3s;
+}
+.alex-image-border:hover .img-about-layer {
+    top: 0;
+    left: 0;
+}
+.parag {
+    color: var(--secondry-color);
+}
+.img-about-layer i {
+    transition: color 0.3s;
+}
+.img-about-layer i:hover {
+    cursor: pointer;
+    color: var(--main-color) !important;
+}
+.about-info span {
+    font-weight: 800;
+}
+.about-content button {
+    padding: 10px 15px;
+    background-color: var(--main-color);
+    color: #fff;
+    transition: all 0.3s;
+}
+.about-content button:hover {
+    background-color: rgb(201, 39, 39)!important;
+    color: #fff!important;
+}
+/* ----------------------------Services---------------------------- */
+.services {
+    background-color: #f1f1f1!important;
+}
+.first-line {
+    width: 50px;
+    height: 1px;
+    background-color: var(--main-color);
+}
+.second-line {
+    width: 100px;
+    height: 1px;
+    background-color: var(--main-color);
+}
+.services p {
+    color: var(--secondry-color);
+}
+.first-cart {
+    transition: all 0.3s;
+}
+.first-cart i {
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.first-cart:hover {
+    background-color: #fff;
+}
+.first-cart:hover i {
+    font-size: 1.7rem;
+}
+/* ----------------------------Portfolio---------------------------- */
+.protfolio-layer {
+    background-color: #1a191894!important;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s;
+}
+.protfolio-layer:hover {
+    opacity: 100%;
+    width: 100%;
+}
+/* ----------------------------Rate---------------------------- */
+.rate {
+    background-color: #f1f1f1;
+}
+.rate i, .rate p {
+    color: var(--main-color);
+}
+/* ----------------------------Testimonial---------------------------- */
+.cartt {
+    background-color: #f1f1f1;
+}
+.testimonial .carousel-indicators {
+    background-color: var(--main-color)!important;
+    color: var(--main-color)!important;
+}
+/* ----------------------------Blog---------------------------- */
+.blog {
+    background-color: #f1f1f1;
+}
+/* ----------------------------contact---------------------------- */
+.contact input {
+    margin: 10px 0;
+}
+/* ----------------------------footer---------------------------- */
+.icons-footer i {
+    transition: color 0.3s;
+}
+.icons-footer i:hover {
+    cursor: pointer;
+    color: var(--main-color) !important;
+}
+.footer-caption span {
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-caption span:hover {
+    text-decoration: underline;
+}
